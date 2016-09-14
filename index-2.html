@@ -96,12 +96,22 @@
           <div class="form-2-container">
             <div class="form-2-wrapper">
               <h3 class="form-title">contact us</h3>
-              <form action="/" class="form-2">
-                <input class="form-input" type="text" required="" placeholder="your name">
-                <input class="form-input" type="text" required="" placeholder="your email">
-                <textarea class="form-textarea" placeholder="message"></textarea>
-                <input type="submit" class="a-btn form-submit" value="send message">
+              <form class="form-2" id="contact_form">
+                <input class="form-input" type="text" required="" id='name' name='name' placeholder="Your Name">
+                <input class="form-input" type="text" required="" pid='conntact_email' name='email' type='email' placeholder="Your Email">
+                <textarea class="form-textarea" id='message' name='message' placeholder="Write a message" ></textarea>
+
+                <div id='success'></div>
+                <button type='submit' class="a-btn form-submit">Send</button>
               </form>
+
+              <form id="gform">
+
+
+
+
+
+
             </div>
           </div>
         </div>
@@ -125,6 +135,7 @@
   </footer>
 
   <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jQuery.validate.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/lightbox.js"></script>
   <script src="js/equalHeightsPlugin.js"></script>
@@ -133,6 +144,8 @@
   <script src="js/pagescroll2id.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="js/all.js"></script>
+  <script src="js/contact.js"></script>
+
 
 </body>
 
